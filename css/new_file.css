@@ -1,0 +1,208 @@
+body{
+	padding-top:50px;
+}
+.nav{
+	font-size: 16px;
+}
+/*导航*/
+.navbar .navbar-header span{
+	text-align: center;margin-top: 5px;
+}
+.navbar .navbar-header span img{
+	padding-right: 10px;
+}
+/*轮播图*/
+.carousel{
+	height: 500px;background-color: black;
+}
+.carousel .item{
+	height: 500px;background-color: black;
+}
+.carousel img{
+	width: 100%;
+}
+.carousel .carousel-caption p{
+	font-size: 20px;
+	line-height: 1.8;
+	margin-top: 20px;
+}
+.rowlist{
+	margin-top: 70px;
+}
+.rowlist .col-sm-4{
+	text-align: center;
+}
+.rowlist .col-sm-4 img{
+	border-radius: 20px;
+}
+
+hr .divider{
+	margin: 20px 0;
+}
+
+/*导航标签*/
+.container .nav-pills{
+	padding-top: 55px;
+}
+.container .tab-content{
+	padding-top: 40px;
+}
+
+/*标签内容-手机*/
+#phone .row{
+	padding-bottom: 70px;
+}
+#phone  h1{
+	display: block;text-align: center;padding-bottom: 58px;margin: 0 auto;
+}
+#phone .row p{
+	display: block;text-align:center;font-size: 18px;
+	margin: 0 auto;line-height:2.0;letter-spacing: 2px;
+}
+#phone .row .one-first{
+	width: 853px;
+}
+#phone  .row .one-second{
+	width: 653px;padding-bottom: 50px;
+}
+#phone .row img{
+	padding-left: 0;padding-top: 50px;
+}
+#phone .row .three-first{
+	width: 853px;
+}
+#phone  .row .three-second{
+	width: 653px;padding-bottom: 50px;
+}
+#phone .row p{
+	width: 853px;
+}
+
+
+/*标签内容-电脑类1*/
+#computer .row .com-one{
+	height: 379px;width:auto;position: relative;
+}
+#computer .row .com-one .com-one-first{
+	position: absolute;z-index: 10;left:60px;top: 50px;
+}
+#computer .row .com-one .com-one-second{
+	position: absolute;z-index: 10;left:65px;top:120px;font-size:26px;letter-spacing: 35px;
+}
+#computer .row .com-one .com-one-third{
+	position: absolute;z-index: 10;left: 974px;top: 100px;font-size: 26px;letter-spacing: 10px;
+}
+/*标签内容-电脑类4*/
+#computer .row .com-four{
+	height:582px;width:auto;position: relative;
+}
+#computer .row .com-four .com-four-first{
+	position: absolute;z-index: 10;left:40px;top: 80px;font-weight: bold;
+}
+#computer .row .com-four .com-four-second{
+	position: absolute;z-index: 10;left:50px;top:160px;font-size:18px;letter-spacing:2px;
+}
+#computer .row .com-four .com-four-third{
+	position: absolute;z-index: 10;left:50px;top:200px;font-size:18px;letter-spacing: 2px;
+}
+
+/*标签内容-电脑2*/
+#computer .row .com-two{
+	height:645px;width:auto;position: relative;
+}
+#computer .row .com-two .com-two-first{
+	position: absolute;z-index: 10;left:760px;top: 80px;font-weight: bold;
+}
+#computer .row .com-two .com-two-second{
+	position: absolute;z-index: 10;left:760px;top:160px;font-size:18px;letter-spacing:2px;
+}
+#computer .row .com-two .com-two-third{
+	position: absolute;z-index: 10;left:760px;top:200px;font-size:18px;letter-spacing: 2px;
+}
+/*标签内容-电脑3*/
+#computer .row .com-three{
+	height:655px;width:auto;position: relative;color: white;
+}
+#computer .row .com-three .com-three-first{
+	position: absolute;z-index: 10;left:60px;top: 80px;font-weight: bold;
+}
+#computer .row .com-three .com-three-second{
+	position: absolute;z-index: 10;left:60px;top:160px;font-size:18px;letter-spacing:2px;
+}
+#computer .row .com-three .com-three-third{
+	position: absolute;z-index: 10;left:60px;top:200px;font-size:18px;letter-spacing: 2px;
+}
+#computer .row .com-three .com-three-forth{
+	position: absolute;z-index: 10;left:60px;top:240px;font-size:18px;letter-spacing: 2px;
+}
+/*标签内容-穿戴设备*/
+#watch .row p{
+	letter-spacing:3px;padding-top: 30px;font-size: 18px;line-height: 1.8;
+}
+/*导航标签-智能家居*/
+
+#wifi .row .wifi-first{
+	height:817px;width:auto;position: relative;
+}
+#wifi .row .wifi-first .wifi-one{
+	position: absolute;z-index: 10;left:410px;top:20px;
+}
+#wifi .row .wifi-first .wifi-two{
+	position: absolute;z-index: 10;left:321px;top:333px;font-size:18px;letter-spacing:2px;line-height: 1.8;
+}
+#wifi .row .wifi-first .wifi-three{
+	position: absolute;z-index: 10;left:743px;top:333px;font-size:18px;letter-spacing: 2px;line-height: 1.8;
+}
+#wifi .row .wifi-first .wifi-four{
+	position: absolute;z-index: 10;left:321px;top:658px;font-size:18px;letter-spacing:2px;line-height: 1.8;
+}
+#wifi .row .wifi-first .wifi-five{
+	position: absolute;z-index: 10;left:743px;top:658px;font-size:18px;letter-spacing:2px;line-height: 1.8;
+}
+/*导航标签-更多*/
+#more img{
+	display: block;margin: 0 auto;
+}
+/* 响应式布局 */
+
+        @media (max-width: 768px) {
+
+            .summary {
+                padding-right: 3px;
+                padding-left: 3px;
+            }
+
+            .myCarousel {
+                height: 300px;
+                margin-bottom: 30px;
+            }
+
+            .myCarousel .item {
+                height: 300px;
+            }
+
+            .myCarousel img {
+                min-height: 300px;
+            }
+
+            .carousel-caption p {
+                font-size: 16px;
+                line-height: 1.4;
+            }
+
+            .feature-heading {
+                font-size: 34px;
+            }
+
+            .feature-heading .text-muted {
+                font-size: 22px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .feature-heading {
+                margin-top: 120px;
+            }
+            
+            
+        }

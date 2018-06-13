@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css">
+	    <link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+	</head>
+	<body>
+<!--导航-->
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+		    <div class="container"> 
+		    <div class="navbar-header">
+		        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#demo-navbar">
+		            <span class="sr-only">切换导航</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		        </button>
+		        <a class="navbar-brand" href="#"><span><img src="img/logo.jpg">HUAWEI</span></a>
+		    </div>
+		    <div class="collapse navbar-collapse" id="demo-navbar">
+		        <ul class="nav navbar-nav">
+		            <li class="active"><a href="#">综述</a></li>
+		            <li><a href="#summary-container">详情</a></li>
+		            <li class="dropdown">
+		                <a href="#" class="dropdown-toggle" data-toggle="dropdown">产品 <span class="caret"></span></a>
+		                <ul class="dropdown-menu">
+		                    <li><a href="#phone">手机</a></li>
+		                    <li><a href="#computer">笔记本&平板</a></li>
+		                    <li><a href="#watch">穿戴设备</a></li>
+		                    <li><a href="#wifi">智能家居</a></li>
+		                    <li><a href="#more">更多</a></li>
+		                </ul>
+		            </li>
+		            <li><a href="#" data-toggle="modal" data-target="#about">关于</a></li>	<!--为了弹出框设计data-toggle="modal" data-target="#about"-->
+		        </ul>
+		    </div>
+		    </div>
+</nav>
+<!--轮播图-->		
+		<div id="myCarousel" class="carousel slide">
+			<!--轮播指标（下面的数字）-->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+				<li data-target="#myCarousel" data-slide-to="4"></li>
+			</ol>
+			<!--轮播项目（图以及上面内容）-->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/轮播图/轮播图3.jpg" alt="first slide">
+					<div class="carousel-caption">
+						<h1>华为是谁？</h1>
+						<p>华为成立于1987年，是一家由员工持有全部股份的民营企业，目前有18万员工，业务遍及170多个国家和地区。
+							华为是全球领先的ICT基础设施和智能终端提供商，致力于服务社会广众
+						</p>
+						<p><a href="http://www.huawei.com/cn/about-huawei/corporate-information" 
+							class="btn btn-lg btn-primary" target="_blank" role="button">点击浏览</a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/轮播图/轮播图2.jpg" alt="second slide">
+					<div class="carousel-caption">
+						<h1>华为理念是什么？</h1>
+						<p>致力于构建万物互联的智能世界，与生态伙伴开放合作，持续为客户创造价值，释放个人潜能，丰富家庭生活，激发组织创新,
+							围绕客户需求持续创新，加大基础研究投入，厚积薄发，推动世界进步</p>
+						<p><a href="http://www.huawei.com/cn/about-huawei/corporate-information" 
+							class="btn btn-lg btn-primary" target="_blank" role="button">点击浏览</a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/轮播图/轮播图5.jpg" alt="third slide">
+					<div class="carousel-caption">
+						<h1>华为为世界带来什么？</h1>
+						<p>推动产业良性发展、促进经济增长、推动社会可持续发展、为奋斗者提供舞台</p>
+						<p><a href="http://www.huawei.com/cn/about-huawei/corporate-information" 
+							class="btn btn-lg btn-primary" target="_blank" role="button">点击浏览</a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/轮播图/轮播图1.jpg" alt="fourth slide">
+					<div class="carousel-caption">
+						<h1>华为坚持什么？</h1>
+						<p>坚持聚焦在主航道，抵制一切诱惑；坚持不走捷径，拒绝机会主义，踏踏实实，长期投入，厚积薄发,
+						    坚持以客户为中心，以奋斗者为本，长期艰苦奋斗，坚持自我批判
+						</p>
+						<p><a href="http://www.huawei.com/cn/about-huawei/corporate-information" 
+							class="btn btn-lg btn-primary" target="_blank" role="button">点击浏览</a>
+						</p>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/轮播图/轮播图4.jpg" alt="fifth slide">
+					<div class="carousel-caption">
+						<h1>华为云是什么？</h1>
+						<p>华为云安全中心，一个中心，一网打尽，集风险发现、
+							风险应对、风险管理于一体，简化安全运维，降低安全成本。此次发布的安全中心，集四大安全服务于一体，构成系统的安全防护矩阵
+						</p>
+						<p><a href="https://www.vmall.com/?cid=10074" 
+							class="btn btn-lg btn-primary" target="_blank" role="button">点击浏览</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--轮播导航（左右两边的按钮）-->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev" role="button"><!--"data-slide" 来导航到上一个和下一个条目-->
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">previous</span>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next" role="button">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">next</span>
+			</a>
+		</div>   
+		
+		<div class="container summary" >
+			<!--栅格系统布局-->
+			<div class="row rowlist" id="summary-container">
+				<!--在中等屏幕中占4列，也就是占屏幕的1/3-->
+				<div class="col-sm-4">
+					<img src="img/详情/价值主张.jpg">
+					<h3>价值主张</h3>
+					<p>为适应信息行业正在发生的革命性变化，华为围绕客户需求和技术领先持续...</p>
+					<p><a class="btn btn-default" href="#" role="button">更多
+						<span class="glyphicon glyphicon-arrow-right" style="color: rgb(212, 106, 64);"></span></a></p>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/详情/发展历程.jpg">
+					<h3>发展历程</h3>
+					<p>华为于1987年成立于中国深圳。在30年的时间里，华为为全体员工付出艰苦卓...</p>
+					<p><a class="btn btn-default" href="#" role="button">更多
+					   <span class="glyphicon glyphicon-arrow-right" style="color: rgb(212, 106, 64);"></span></a>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/详情/财务概要.jpg">
+					<h3>财务概要</h3>
+					<p>华为2017年年报显示，华为运营商、企业、终端三大业务在2016年的基础...</p>
+					<p><a class="btn btn-default" href="#" role="button">更多
+					   <span class="glyphicon glyphicon-arrow-right" style="color: rgb(212, 106, 64);"></span></a>
+					</p>
+				</div>				
+			</div>
+			<div class="row rowlist">
+				<!--在中等屏幕中占4列，也就是占屏幕的1/3-->
+				<div class="col-sm-4">
+					<img src="img/详情/研究开发.jpg">
+					<h3>研究开发</h3>
+					<p>华为聚焦ICT管道战略，为实现更好的全联接世界，在关键技术、基础工程能力、架...</p>
+					<p><a class="btn btn-default" href="#" role="button">更多
+					   <span class="glyphicon glyphicon-arrow-right" style="color: rgb(212, 106, 64);"></span></a>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/详情/开放合作共赢.jpg">
+					<h3>开放合作共赢</h3>
+					<p>打开边界，与世界握手，华为正与伙伴携手，建立互生、共生、再生的共赢繁荣...</p>
+					<p><a class="btn btn-default" href="#" role="button">更多
+					   <span class="glyphicon glyphicon-arrow-right" style="color: rgb(212, 106, 64);"></span></a>
+					</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="img/详情/质量方针.jpg">
+					<h3>质量方针</h3>
+					<p>积极倾听客户需求，精心构建产品质量，真诚提供满意服务，时刻铭记为客户服务是我们...</p>
+					<p><a class="btn btn-default" href="#" role="button">更多
+					   <span class="glyphicon glyphicon-arrow-right" style="color: rgb(212, 106, 64);"></span></a>
+					</p>
+				</div>
+		</div>
+		   <hr class="divider">
+		   <!--导航标签-->
+		    <ul class="nav nav-pills" role="navlist" id="tab-list">
+		    	<li class="active"><a href="#phone" data-toggle="tab">手机</a></li>
+		        <li><a href="#computer" data-toggle="tab">笔记本&平板</a></li>
+		        <li><a href="#watch" data-toggle="tab">穿戴设备</a></li>
+		        <li><a href="#wifi" data-toggle="tab">智能家居</a></li>
+		        <li><a href="#more" data-toggle="tab">更多</a></li>
+		       
+		    </ul>
+		    <!--标签内容-->
+		    <div class="tab-content">
+		    	<div class="tab-pane active" id="phone">
+		    	    <div class="row">
+		    	    	<div class="col-lg-12">
+		    	    		<h1>手指一触，成就艺术</h1>
+		    	    		<p class="one-first">技术的创新，推动艺术的进步。HUAWEI P20搭载的新一代徕卡双镜头和人工智能芯片，</p>		    			    			    
+		    			    <p class="one-second">赋予你无尽的创作空间。只需轻点指尖，就能用你独特的视角记录世界。摄影艺术，此刻由你随心诠释。</p>
+		    	    	</div>
+		    	    </div>
+		    	    <div class="row">	
+		    	    	<div class="col-lg-12">
+		    				
+		    			    <img src="img/手机/手机1.jpg">
+		    	    	</div>			    					    			
+		    	    </div>		    	
+		    	    <div class="row">
+		    	    	<div class="col-lg-12">
+		    	    		<h1>精彩视界，就在眼前</h1>
+		    				<p>支持HDR10视频标准，展现出更丰富细腻的图像细节</p>		    			    			    
+		    			    <p>画质和色彩的双重提升，为你带来震撼人心的视觉体验。</p>
+		    			</div>
+		    		</div>
+		    	    <div class="row">	
+		    			<div class="col-lg-12">
+		    			    <img src="img/手机/手机2.jpg">
+		    	    	</div>
+		    	    </div>	
+		    	    <div class="row">
+		    	    	<div class="col-lg-12">
+		    	    		<h1>无线分享，分享无限</h1>
+		    				<p class="three-first">分享，比你想象中更简单。华为手机克隆可实现高速换机，1分钟即可完成1.4G数据的迁移*.</p>		    			    			    
+		    			    <p class="three-second">通过HUAWEI Share 2.0，能便捷地与其他华为手机、Windows/Mac电脑进行无线文件交换**，随时随地，分享无限。</p>
+		    			</div>  
+		    		</div>
+		    	    <div class="row">	
+		    			<div class="col-lg-12">    
+		    			    <img src="img/手机/手机3.jpg">
+		    	    	</div>		    		    			    		
+		          	</div>
+		    	    <div class="row">
+		    	    	<div class="col-lg-12">
+		    	    		<h1>创造着艺术，也是艺术化身</h1>
+		    				<p class="">HUAWEI P20的5.8英寸*全面屏**，让你第一眼就沉醉于纯粹的视觉盛宴。</p>		    			    			    
+		    			    <p class="four-first">设计师从光中汲取灵感，将结构色***融于设计语言。不经意间，你便在这纤薄方寸间流连忘返。</p>
+		    			    <p class="four-second">*HUAWEI P20显示屏采用曲线优美的圆角设计，四个圆角位于一个标准矩形内。
+		    			    	按照标准矩形测量时，屏幕的对角线长度是5.8英寸 (实际可视区域较小)。</p>		    			  
+                            <p>  *** 结构色渐镀工艺仅限极光色和樱粉金。</p>
+                        </div>  
+                    </div>
+		    	    <div class="row">	
+		    			<div class="col-lg-12">  
+		    			    <img src="img/手机/手机4.jpg">
+		    	    	</div>		    			   		    		
+		    	   </div>			    	   
+		        </div>
+		        <div class="tab-pane" id="computer">
+		           	<div class="row">
+		           		<div class="col-lg-12 com-one">	
+		           			        <img src="img/电脑平板/1.jpg"/>		           			       
+		           					<h2 class="com-one-first"><strong>HUAWEI</strong>&nbsp;MateBook&nbsp;X&nbsp;Pro</h2>
+				           			<p class="com-one-second">全面屏笔记本</p>
+				           			<p class="com-one-third">开启大视野</p>
+		           		</div>		           				           						           		           					           		
+		           	 </div>
+		           	 <div class="row c">
+		           		<div class="col-lg-12 com-four">	
+		           			        <img src="img/电脑平板/3.jpg"/>		           			       
+		           					<h2 class="com-four-first">一指开启，省去“繁”恼</h2>
+				           			<p class="com-four-second">HUAWEI MateBook X Pro，指纹识别与电源键二合一，</p>
+				           			<p class="com-four-third">大大提高工作效率。</p>
+		           		</div>		           						           		           					           		
+		           	</div>
+		           	<div class="row">
+		           		<div class="col-lg-12 com-two">	
+		           			        <img src="img/电脑平板/4.jpg"/>		           			       
+		           					<h2 class="com-two-first">简约轻薄，质感不凡</h2>
+				           			<p class="com-two-second">超轻薄金属机身，铝合金CNC钻切工艺，精致而坚固。</p>
+				           			<p class="com-two-third">精密喷砂带来的亲肤手感，如宝石般温润而具内涵。</p>
+		           		</div>		           				           						           		           					           		
+		           	</div>
+		           	<div class="row">
+		           		<div class="col-lg-12 com-three">	
+		           			        <img src="img/电脑平板/2.jpg"/>		           			       
+		           					<h2 class="com-three-first">隐藏式摄像头，为安全着想</h2>
+				           			<p class="com-three-second">创新按压式隐藏摄像头。</p>
+				           			<p class="com-three-third">使用时弹起即可，</p>
+				           			<p class="com-three-forth">助你的办公生活安全无忧。</p>
+		           		</div>		           						           		           					           		
+		           	</div>		           	
+		        </div>
+		        <div class="tab-pane" id="watch">
+		        	<div class="row">
+		        		<div class="col-md-5">
+		        			<img src="img/穿戴设备/1.png">
+		        		</div>
+		        		<div class="col-md-7">
+		        			<h2>陶瓷表圈，精致实用</h2>
+		        			<p>选用高档表配备的陶瓷材质表圈，每只表圈历经23道工序,288个小时的雕琢，色泽纯净、轻巧并且不易磨损。</p>
+		        		</div>
+		        	</div>
+		        	<div class="row">
+		        		<div class="col-md-7">
+		        			<h2>百搭表盘，腕变随心</h2>
+		        			<p>兼顾美观与实用的丰富表盘，满足不同场景的搭配特有的运动风格表盘，还可直接查看步数、站立次数、心率等数据。</p>
+		        		</div>
+		        		<div class="col-md-5">
+		        			<img src="img/穿戴设备/2.png">
+		        		</div>
+		        	</div>		        	
+		        </div>
+		        <div class="tab-pane" id="wifi">
+		        	<div class="row">
+		        		<div class="col-lg-12 wifi-first">
+		        			<img src="img/智能家居/1.jpg">
+		        			<h2 class="wifi-one">四重安全防护&nbsp;&nbsp;&nbsp;家庭网络无忧</h2>
+		        			<p class="wifi-two"><strong>防钓鱼、防木马</strong><br>百度技术合作，自动识别恶意网站</p>
+		        			<p class="wifi-three"><strong>防暴力破解</strong><br>防止专业破解软件 侵袭家庭 网络安全</p>
+		        			<p class="wifi-four"><strong>客人WIFI</strong><br>保障主任网络更安全</p>
+		        			<p class="wifi-five"><strong>蹭网踢出</strong><br>设备减少安全隐患</p>
+		        		</div>		        		
+		        	</div>		  
+		        </div>
+		        <div class="tab-pane" id="more">
+		        	<div class="row">
+		        		<div class="col-lg-12">
+		        			<img src="img/更多/1.jpg">                           
+		        		</div>		        		
+		        	</div>		  
+		        </div>
+			    <footer>			   
+				   	<p class="pull-right"><a href="https://consumer.huawei.com/cn/?type=phones" class="btn btn-primary">更多</a></p>
+				   	<h3>&copy;<strong>Ping Jingmin</strong></h3>
+				</footer>
+		    </div>
+		    <!--版权声明，回到顶部-->
+			
+		</div>   
+		
+<!--弹出框-->		
+        <div class="modal fade" id="about">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal">
+        					<span aria-hidden="true">&times;</span>
+        					<span class="sr-only">Close</span>
+        				</button>
+        			</div>
+        			<div class="modal-body">
+        				 <p>华为坚持围绕客户需求持续创新，加大基础研究 投入；华为加入360多个标准组织、产业联盟和开源社区，积极参与支持主流标准的制定、构建共赢的生态圈；
+        				 	华为推进绿色、低碳的环保理念，从产品规划、设计、研发、制造、交付以及运维，华为向客户提供领先的节能环保产品和解决方案。</p>
+        			</div>
+        			<div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
+        			</div>
+        		</div>
+        	</div>
+        </div>		
+		
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.js"></script>	
+	<script src="js/new_file.js"></script>
+	</body>
+</html>
+

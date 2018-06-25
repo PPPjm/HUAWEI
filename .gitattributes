@@ -1,3 +1,5 @@
 *.js linguist-language=Bootstrap
 *.css linguist-language=Bootstrap
 *.html linguist-language=Bootstrap
+*.fonts linguist-language=Bootstrap
+

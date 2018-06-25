@@ -1,1 +1,3 @@
 *.html linguist-language=bootstrap
+*.js linguist-language=bootstrap
+*.css linguist-language=bootstrap
